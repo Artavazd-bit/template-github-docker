@@ -1,0 +1,8 @@
+
+services:
+  rstudio:
+    build: .
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./data:/home/rstudio/project/data

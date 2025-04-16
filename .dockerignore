@@ -1,0 +1,14 @@
+find . -name "*.pyc" | xargs rm -f
+find . -name "*.lock" | xargs rm -f
+find . -name "*.sock" | xargs rm -f
+find . -name ".venv" | xargs rm -rf
+
+.git
+.gitignore
+
+.env
+
+renv/library/
+
+
+

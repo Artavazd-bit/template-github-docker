@@ -1,0 +1,24 @@
+# R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# renv cache and library directories
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
+
+# Docker
+.env
+
+# Data files
+*.csv
+*.xlsx
+*.rds
+/data/*
+!/data/.gitkeep
+
+# Except for the .gitkeep file
+!.gitkeep

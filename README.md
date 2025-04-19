@@ -12,4 +12,4 @@ docker-compose up -d
 
 # Access RStudio at http://localhost:8787
 # Username: rstudio
-# Password: rstudio
+# Password: 1234
